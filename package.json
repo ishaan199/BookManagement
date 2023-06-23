@@ -1,10 +1,15 @@
 {
-  "name": "projecbookmanagementgroup8",
+  "name": "projecbookmanagement",
   "version": "1.0.0",
   "description": "project-3 book management ",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon src/index"
+  },
+  "engines": {
+    "npm": ">=8.0.0 <9.0.0",
+    "node": ">=16.0.0 <18.4.2"
   },
   "author": "Ishaan Mangal",
   "license": "ISC",
